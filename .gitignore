@@ -1,0 +1,94 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build outputs
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Uploads and generated files
+uploads/
+*.pdf
+*.json
+generated_*.pdf
+debug_*.pdf
+test_*.pdf
+
+# API Keys and sensitive data
+*.key
+*.pem
+config.json
+secrets.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend specific
+front-end/dist/
+front-end/build/
+front-end/.next/
+front-end/out/
+
+# Backend specific
+backend-resume-anaalyser/uploads/
+backend-tailured-resume-builder/uploads/
+backend-resume-anaalyser/*.json
+backend-tailured-resume-builder/*.json

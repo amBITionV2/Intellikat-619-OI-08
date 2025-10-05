@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# Uploads and generated files
+uploads/
+*.json
+*.pdf
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
